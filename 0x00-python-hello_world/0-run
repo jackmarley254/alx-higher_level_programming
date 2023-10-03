@@ -1,17 +1,2 @@
 #!/usr/bin/python3
-
-if [ -z "$PYFILE" ]; then
-echo "Error: Environment Write a Shell script that runs a Python script.
-
-The Python file name will be saved in the environment variable $PYFILEvariable\$PYFILE is not set."
-exit 1
-
-fi
-
-if [ ! -f "$PYFILE" ]; then
-echo "Error: File '$PYFILE' does not exist."
-exit 1
-fi
-
-python "$PYFILE"
-~                
+$PYFILE                
